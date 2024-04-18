@@ -1,0 +1,79 @@
+.footer-bottom{
+	background-color: #153356;
+	color: #fff;
+}
+
+.footer-bottom p{
+	color: #fff;
+}
+
+.social-media{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 80px;
+	margin: 30px 0px;
+}
+
+.social-media a{
+	background-color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #44464a;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media div{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-media a:hover{
+	transform: scale(1.1);
+	color:#000;
+}
+
+.footer-bottom .container{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.footer-bottom .container .row{
+	margin: 10px;
+}
+
+.footer-bottom .email-civil-department{
+	margin-top: 10px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.footer-bottom .more-contact-info{
+	margin-top: 10px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.footer-bottom .email-civil-department:hover{
+	transform: scale(1.05);
+}
+
+.footer-bottom .more-contact-info:hover{
+	transform: scale(1.05);
+}
+
+.footer-bottom .contributions{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-bottom .contributions .contributors > li{
+	padding-left: 10px;
+}

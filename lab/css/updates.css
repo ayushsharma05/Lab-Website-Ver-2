@@ -1,0 +1,20 @@
+#lab-news{
+	background-color:#fff;
+	border: 5px solid #ffd700;
+	border-radius: 25px;
+}
+
+#lab-news .lab-news-container{
+	padding: 10px;
+}
+
+.outcome-section .left-banner{
+	background-color: whitesmoke;
+	border: none;
+}
+
+.outcome-section .row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

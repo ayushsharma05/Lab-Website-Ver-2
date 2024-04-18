@@ -1,0 +1,93 @@
+@media only screen and (max-width: 992px){
+	.main-header img{
+		max-width: 80px;
+		margin-bottom: 10px;
+	}
+
+	.sec-padding .container .row{
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.sec-padding .container .row .col-md-9{
+		margin-bottom: 50px;
+	}
+
+	.equipments-section .row{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.social-media{
+		padding: 0;
+	}
+
+	.menu{
+		float: right;
+		padding-top: 5px;
+	}
+
+	.menu-3 .nav{
+		display: flex;
+		flex-direction: column;
+	} 
+
+	.navbar {
+		position: relative;
+		min-height: 50px;
+		margin-bottom: 20px;
+		display: block;
+	}
+
+	.navbar-toggle {
+		display: block;
+		position: relative;
+		float: right;
+		margin-right: 15px;
+		padding: 9px 10px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		background-color: transparent;
+		border: 1px solid transparent;
+		border-radius: 2px;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.navbar-toggle:hover{
+		transform: scale(1.1);
+	}
+	
+	.navbar-nav > li {
+		display: none;
+ 		float: left;
+		border-bottom: 2px dashed #000;
+		border-radius: 30px;
+	}
+	
+	#main-navigation{
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.menu-3 .menu .navbar{
+		border: 1px double #000;
+		border-radius: 30px;
+	}
+
+	.menu-3 .navbar-header{
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		padding-left: 20px;
+		padding-top: 5px;
+		margin-top: 10px;
+		border-radius: 30px;
+
+	}
+
+	.menu-3 .navbar-toggle .icon-bar{
+		background-color:#000;
+	}
+	
+}

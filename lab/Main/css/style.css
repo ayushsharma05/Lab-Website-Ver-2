@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+a:focus {
+    outline: 0px solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #44464a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222222;
+    margin: 0 0 10px;
+}
+
+h1 {
+    font-weight: 900;
+    font-family: "Roboto Slab", serif;
+    font-size: 54px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 42px;
+    font-family: "Roboto Slab", serif;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto Slab", serif;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "Roboto Slab", serif;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Roboto Slab", serif;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+button {
+    background-color: #ffd700;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    background: transparent;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+a:hover {
+    color: #153356;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    outline: 0 none;
+}
+
+a:hover, a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    background:whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 16px;
+    text-align: left;
+    overflow-x: hidden;
+    line-height: 28px;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.p-0 {
+    padding-bottom: 0 !important;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
+    --moz-appearance: none;
+    box-shadow: none !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+}
+
+::-moz-selection {
+    background: #153356;
+    text-shadow: none;
+}
+
+::selection {
+    background: #153356;
+    text-shadow: none;
+}
+
+.sec-padding {
+    padding: 30px 0px;
+}
+
+.sec-padding-2 {
+    padding: 70px 0px 50px;
+}
+
+.padding-2 {
+    padding-bottom: 90px;
+}
+
+.bg-color {
+    background: #f7f7f7;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}

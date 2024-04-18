@@ -1,0 +1,96 @@
+#scrolled-to-labs{
+    width: 100%;
+}
+
+#labs-banner{
+    width: 100%;
+}
+/* Style the labs section */
+#labs-section {
+    padding: 50px 0;
+}
+
+/* Style the container */
+#labs-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Style the table */
+.labs-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Style the table headings */
+.lab-list-heading {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center; /* Align headings at the center */
+}
+
+/* Style the table items */
+.labs-list-items:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the table data */
+.lab-list-data {
+    padding: 12px;
+    text-align: center; /* Align data at the center */
+}
+
+/* Style the links */
+.lab-list-data a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.data-two a{
+    color: #000;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+/* Change link color on hover */
+.lab-list-data a:hover {
+    color: #0056b3; /* Darker shade of blue */
+    text-decoration: underline;
+}
+
+.data-two a:hover{
+    color: #0056b3; /* Darker shade of blue */
+    text-decoration: none;
+}
+
+/* Add box-shadow on hover for table rows */
+.labs-list-items:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for table rows */
+.labs-list-items:hover td {
+    background-color: #e0f3ff; /* Light blue on hover */
+}
+
+/* Style the table columns */
+.labs-list th,
+.labs-list td {
+    border-right: 1px solid #ddd; /* Add lines to separate columns */
+}
+
+/* Remove right border for the last column */
+.labs-list th:last-child,
+.labs-list td:last-child {
+    border-right: none;
+}
+
+  
+  

@@ -1,0 +1,43 @@
+.header-box {
+    background-color:steelblue;
+    padding: 20px 0;
+    padding-bottom: 0px;
+	border-bottom: 5px solid #ffd700;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.main-header h3 {
+    margin: 0;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-header h3:hover{
+    transform: scale(1.1);
+}
+
+.main-header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-header p:hover{
+    transform: scale(1.1);
+}
+
+.main-header img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%; /* Adds a circular border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect */
+    margin-bottom: 15px;
+}
+
+.main-header img:hover {
+    transform: scale(1.1); /* Increases the size on hover */
+}

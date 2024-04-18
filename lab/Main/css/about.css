@@ -1,0 +1,77 @@
+.sec-padding .container .row{
+	margin-left: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.colored-container{
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	background-color:snow;
+	height: 100%;
+	float: left;
+	transition: transform 0.3s ease-in-out;
+	border: 3px solid #ffd700;
+}
+
+.colored-container:hover{
+	border-color: yellow;
+	font-style:oblique;
+	font-weight: lighter;
+	color: #000;
+	.about .heading{
+		font-style: italic;
+		font-weight:bolder;
+	}
+}
+
+.right-banner{
+	float: right;
+	width: 100%;
+}
+
+.right-banner ul > li{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	margin-top: 10px;
+	justify-content: space-around;
+}
+
+.right-banner ul > li .list-title{
+	font-weight: 900;
+}
+
+.about{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.incharge-box{
+	height: 100%;
+}
+
+.about img{
+	transition: transform 0.3s ease-in-out;
+}
+
+.about img:hover{
+	transform: scale(2);
+}
+
+.about .heading{
+	height: 35px;
+	background-color:linen;
+	color: #444444;
+}
+
+.about-branch{
+	width: 95%;
+}
+
+
