@@ -1,27 +1,31 @@
 .footer-bottom{
+	font-size: small;
 	background-color: #29166f;
 	color: #fff;
 }
 
 .footer-bottom p{
+	font-size: small;
 	color: #fff;
 }
 
 .social-media{
+	font-size: small;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	padding: 0px 80px;
-	margin: 30px 0px;
+	margin: 5px 0px;
 }
 
 .social-media a{
+	font-size: small;
 	background-color: #fff;
     border: none;
     outline: none;
     box-shadow: none;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 1px 10px;
     border-radius: 5px;
     color: #44464a;
     text-decoration: none;
@@ -29,6 +33,7 @@
 }
 
 .social-media div{
+	font-size: small;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -40,7 +45,8 @@
 }
 
 .footer-bottom .container{
-	padding: 30px;
+	font-size: small;
+	padding: 10px 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -48,16 +54,19 @@
 }
 
 .footer-bottom .container .row{
-	margin: 10px;
+	font-size: small;
+	margin: 1px;
 }
 
 .footer-bottom .email-civil-department{
-	margin-top: 10px;
+	font-size: small;
+	margin-top: 1px;
 	transition: transform 0.3s ease-in-out;
 }
 
 .footer-bottom .more-contact-info{
-	margin-top: 10px;
+	font-size: small;
+	margin-top: 1px;
 	transition: transform 0.3s ease-in-out;
 }
 
@@ -70,10 +79,12 @@
 }
 
 .footer-bottom .contributions{
+	font-size: small;
 	display: flex;
 	flex-direction: row;
 }
 
 .footer-bottom .contributions .contributors > li{
 	padding-left: 10px;
+
 }

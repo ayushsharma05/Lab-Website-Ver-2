@@ -14,6 +14,12 @@ fusion-header-wrapper{
 }
 
 
+.fusion-header-v4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .fusion-secondary-header{
     background-color: #ffffff;
     font-size: 12px;
@@ -120,7 +126,6 @@ fusion-header-wrapper{
 }
 
 .fusion-contact-info {
-    padding: 12px 30px;
     line-height: 23px !important;
     margin-left: 47% !important;
     box-sizing: border-box;
@@ -136,6 +141,7 @@ fusion-header-wrapper{
 
 /*.cont*/
 .cont {
+    margin-left: -69px;
     font-family: open sans;
     font-size: 13px;
     color: #992941 !important;
@@ -143,7 +149,6 @@ fusion-header-wrapper{
     /* margin-top: 16px; */
     font-weight: 800px;
     box-sizing: border-box;
-    display: block;
     unicode-bidi: isolate;
 }
 
@@ -251,7 +256,6 @@ fusion-header-wrapper{
     margin: 0 auto;
     zoom: 1;
     box-sizing: border-box;
-    display: block;
     unicode-bidi: isolate;
     font-family: 'Verdana';
     font-size: 14px;
@@ -266,6 +270,9 @@ fusion-header-wrapper{
 .fusion-logo-left.fusion-header-v4 .fusion-logo {
     float: none;
     width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .fusion-header-v4 .fusion-logo {
@@ -454,7 +461,6 @@ fusion-header-wrapper{
     border-color: #d2d2d2;
     width: 286px;
     display: table;
-    width: 100%;
 }
 
 .searchform .search-field {
