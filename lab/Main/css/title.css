@@ -1,3 +1,8 @@
+.title-heading-center:hover{
+    transform: scale(1.05);
+}
+
+
 .fullwidth-box.faded-background{
     height: 100%;
     background-color:unset !important;
@@ -76,5 +81,5 @@
     line-height: 30px;
     color:black !important;
     text-transform: none;
-    
+    transition: transform 0.3s ease-in-out;
 }
