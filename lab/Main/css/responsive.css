@@ -1,4 +1,12 @@
 @media only screen and (max-width: 992px){
+
+	.fusion-secondary-header{
+		border-bottom: 2px solid #992941 !important;
+	}
+
+	.fusion-contact-info{
+		margin-left: 0 !important;
+	}
 	
 	.fullwidth-box.faded-background{
 		height: 100%;
