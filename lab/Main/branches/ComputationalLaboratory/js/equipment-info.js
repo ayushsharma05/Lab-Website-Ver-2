@@ -74,21 +74,4 @@ var isCodeArray = [
     "3696: 1987"
 ];
 
-var externalSourceArray = [
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering",
-    "https://en.wikipedia.org/wiki/Geotechnical_engineering"
-];
 //------------------------------------------------------------------------------------------------------------------------
