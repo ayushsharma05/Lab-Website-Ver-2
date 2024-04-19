@@ -26,7 +26,7 @@ document.getElementById('Equipments').innerHTML = equipmentHTMLArray.join('');
 
 
 // Append "Show Previous 3.." HTML code
-equipmentButtons.push('<div><div class="unhide-three-previous-container"><a class="unhide-three-previous">Previous..</a></div>');
+equipmentButtons.push('<div class= "equipment-buttons"><div class="unhide-three-previous-container"><a class="unhide-three-previous">Previous..</a></div>');
 
 // Append "unhide-three-container" HTML code
 equipmentButtons.push('<div class="unhide-three-container hidden-equipment"></div>');
@@ -35,6 +35,6 @@ equipmentButtons.push('<div class="unhide-three-container hidden-equipment"></di
 equipmentButtons.push('<div class="unhide-three-next-container"><a class="unhide-three-next">Next..</a></div></div>');
 
 // Append the buttons HTML to the end of the equipments-container div
-document.getElementById('equipments-container').insertAdjacentHTML('beforeend', equipmentButtons.join(''));
+document.getElementById('equipment-heading-container').insertAdjacentHTML('afterEnd', equipmentButtons.join(''));
 
 //---------------------------------------------------------------------------------------------------------------------------

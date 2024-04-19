@@ -3,7 +3,7 @@
 	align-items: center;
 	text-align: center;
 	background-color:white;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 
 .equipment-heading-container .equipment-heading{
@@ -18,9 +18,11 @@
 .equipments-section .row{
 	display: grid !important;
 	grid-template-columns: repeat(3, 1fr);
-	row-gap: 2.5em;
+	row-gap: 2em;
 	column-gap: 1em;
 	grid-auto-rows: minmax(100px, auto);
+	margin: 0 !important;
+	justify-content: center !important;
 }
 
 .equipments-section .container .row::before{
@@ -45,6 +47,13 @@
 	align-items: center;
 	padding: 10px;
 	transition: transform 0.3s ease-in-out;
+}
+
+.equipment-buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
 .equipment-box{
@@ -75,9 +84,7 @@
 	transform: scale(2);
 }
 
-.unhide-three-container{
-	margin-top: 35px;
-}
+
 
 .unhide-three-previous{
 	cursor: pointer;
@@ -105,7 +112,17 @@
 	display: none;
 }
 
+.flex-equipment{
+	margin-left: 50px;
+}
+
 .unhide-three:hover{
 	transform: scale(1.1);
 	color:skyblue;
+}
+
+.unique-element{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }

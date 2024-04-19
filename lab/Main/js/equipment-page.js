@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded", function(){
         allEquipments.forEach(function(element, index){
             if(index >= currentStartIndex && index <= currentEndIndex){
                 element.classList.remove('hidden-equipment');
+                element.classList.add('flex-equipment');
             } else {
                 element.classList.add('hidden-equipment');
+                element.classList.remove('flex-equipment');
             }
         });
         
