@@ -11,10 +11,10 @@ for (var i = 0; i <imgSrcArray.length; i++) {
     equipmentHTML += '<div class="equipment-box">';
     equipmentHTML += '<div class="equipment">';
     equipmentHTML += '<img src="' + imgSrcArray[i] + '" alt="Incharge Photo">';
-    equipmentHTML += '<h5 class="equipment-name">' + equipmentNameArray[i] + '</h5>';
-    equipmentHTML += '<p class="about-equipment">' + equipmentInfoArray[i] + '</p>';
-    equipmentHTML += '<p><strong>IS CODE:</strong> ' + isCodeArray[i] + '</p>';
-    equipmentHTML += '<a href="' + externalSourceArray[i] + '">Click Here to read on Wikipedia</a>';
+    equipmentHTML += '<div class="equipment-name"><h5>' + equipmentNameArray[i] + '</h5></div>';
+    equipmentHTML += '<div class="about-equipment"><p>' + equipmentInfoArray[i] + '</p></div>';
+    equipmentHTML += '<div class="IScode"><p><strong>IS CODE:</strong> ' + isCodeArray[i] + '</p></div>';
+    /*equipmentHTML += '<a href="' + externalSourceArray[i] + '">Click Here to read on Wikipedia</a>';*/
     equipmentHTML += '</div></div></div></div>';
     
     // Add generated HTML code to the array

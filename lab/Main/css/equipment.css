@@ -63,7 +63,12 @@
 }
 
 .equipment img{
+	height: 151px;
 	transition:transform 0.3s ease-in-out;
+}
+
+.equipment div{
+	margin-top: 10px;
 }
 
 .equipment img:hover{

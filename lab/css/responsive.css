@@ -1,5 +1,28 @@
 @media only screen and (max-width: 992px){
 
+	.fusion-header-v4 .fusion-logo .fusion-header-content-3-wrapper{
+		width: 100%;
+	}
+
+	.fusion-header-v4 .search-table{
+		width:145px;
+	}
+
+	.searchform .search-field{
+		display: none;
+	}
+
+	.searchform .search-button{
+		float: right;
+	}
+
+	.searchsubmit{
+		background-color: transparent;
+		color: #000;
+		border: 2px solid #000;
+		border-radius: 100px;
+	}
+
 	.fusion-secondary-header{
 		border-bottom: 2px solid #992941 !important;
 	}
