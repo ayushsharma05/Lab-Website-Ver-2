@@ -1,3 +1,7 @@
+#main-navigation-wrapper{
+    margin-bottom: 0px;
+}
+
 #main-navigation{
     background-color: rgba(153, 41, 65, 1);
     display: flex;

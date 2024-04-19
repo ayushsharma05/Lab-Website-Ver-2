@@ -1,6 +1,6 @@
 //---------------Don't edit this------------------------------------------------------------------------------------------
 document.querySelector('#InchargePhoto').src = inchargeLab.InchargePhoto;
-/*document.querySelector('#labName').innerHTML = labName;*/
+document.querySelector('#labName').innerHTML = labName.toUpperCase();
 document.querySelector('#aboutLab').innerHTML = aboutLab;
 document.querySelector('#labPurpose').innerHTML = '<strong>Purpose : </strong>' + labPurpose;
 document.querySelector('#labLink').href = labLink;

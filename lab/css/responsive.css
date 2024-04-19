@@ -1,4 +1,8 @@
 @media only screen and (max-width: 992px){
+	.fullwidth-box.faded-background{
+		height: 100%;
+	}
+
 	.main-header img{
 		max-width: 80px;
 		margin-bottom: 10px;

@@ -1,0 +1,80 @@
+.fullwidth-box.faded-background{
+    height: 100%;
+    background-color:unset !important;
+    border-color: #eae9e9;
+    border-top-width: 0px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-left: px !important;
+    padding-right: px !important;
+    margin-top: -50px !important;
+    width: 100%;
+    font-family: 'Verdana';
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    border-bottom: 5px solid #ffd700  !important;
+    /*border-left: 5px solid #ffd700 !important;
+    border-right: 5px solid #ffd700 !important;*/
+    border-radius: 90px;
+    background-color: whitesmoke !important;
+}
+
+/*.faded-background .fullwidth-faded{
+    background-attachment: none;
+    background-image: url(http://cc.nitdelhi.ac.in/wp-content/uploads/2016/05/civil.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 70%;
+    min-width: 100%;
+    opacity: 0.52 !important;
+}*/
+
+.fusion-fullwidth .fusion-row{
+    background-color: transparent;
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+    border-radius: 50px;
+}
+
+.fusion-fullwidth .fusion-row .fusion-title{
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.fusion-title.fusion-sep-none{
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    margin: 0 0 31px;
+}
+
+.title-heading-center{
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    color:black !important;
+    text-transform: none;
+    
+}
