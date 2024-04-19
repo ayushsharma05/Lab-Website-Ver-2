@@ -49,6 +49,10 @@ fusion-header-wrapper{
 }
 
 .fusion-secondary-header .fusion-row {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -141,7 +145,6 @@ fusion-header-wrapper{
 
 /*.cont*/
 .cont {
-    margin-left: -69px;
     font-family: open sans;
     font-size: 13px;
     color: #992941 !important;
@@ -150,14 +153,6 @@ fusion-header-wrapper{
     font-weight: 800px;
     box-sizing: border-box;
     unicode-bidi: isolate;
-}
-
-.fusion-contact-info {
-    line-height: 23px !important;
-    margin-left: 47% !important;
-    font-weight: 400;
-    -webkit-text-size-adjust: 100%;
-    font: 13px / 20px 'PTSansRegular', Arial, Helvetica, sans-serif;
 }
 
 .cont a {
@@ -188,6 +183,77 @@ fusion-header-wrapper{
 }
 
 
+
+#google_translate_element{
+    /*float: right !important;*/
+    margin-top: 8px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    font-family: open sans;
+    font-size: 13px;
+    color: #992941 !important;
+    line-height: 23px !important;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    font: 13px / 20px 'PTSansRegular', Arial, Helvetica, sans-serif;
+}
+
+#google_translate_element * {
+    color: #903;
+}
+
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+    box-sizing: border-box;
+    direction: ltr;
+    unicode-bidi: isolate;
+    line-height: 23px !important;
+}
+
+span#google_translate_element div.goog-te-gadget-simple {
+    color: #903;
+    font-size: 10pt;
+    display: inline-block;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    background: none !important;
+    border: none !important;
+}
+
+
+
+.goog-te-gadget img {
+    vertical-align: middle;
+    border: none;
+    background-image: url(https://translate.googleapis.com/translate_static/img/te_ctrl3.gif);
+    background-position: -65px 0px;
+    /*margin-left: 2px;
+    margin-right: 2px;*/
+    width: 19px;
+    height: 19px;
+    display: none;
+    max-width: 100%;
+}
+
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed {
+    text-decoration: none;
+    color: #00C;
+    white-space: nowrap;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: transparent;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span{
+    padding-right: 5px;
+}
+
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px / 1 FontAwesome;
@@ -209,8 +275,7 @@ fusion-header-wrapper{
 
 .fusion-header-v4 .fusion-header{
     border-bottom-color: #992941;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
     border-bottom: 1px solid transparent;
     background-color: rgba(255, 255, 255, 1);
     margin-top: -1px;
@@ -228,6 +293,10 @@ fusion-header-wrapper{
     font-weight: 400;
     -webkit-text-size-adjust: 100%;
     font: 13px / 20px 'PTSansRegular', Arial, Helvetica, sans-serif;
+}
+
+.fusion-header-v4 .fusion-header .fusion-row{
+    max-width: 100% !important;
 }
 
 
@@ -564,7 +633,7 @@ fusion-header-wrapper{
     border-radius: 0;
     color: #FFFFFF;
     font-size: 14px;
-    height: 33px;
+    height: 33px !important;
     line-height: 33px;
     margin: 0;
     padding: 0;
@@ -585,7 +654,7 @@ fusion-header-wrapper{
     float: right;
     margin-top: -48px;
     width: 30px;
-    margin-right: 23px;
+    margin-right: 70px;
     margin-top: -34px;
     margin-bottom: 5px;
     padding-right: 8px;
@@ -630,9 +699,9 @@ fusion-header-wrapper{
 
 .indianflag {
     float: left;
-    margin: 0 195px 0 0;
+    margin: 0 150px 0 0;
     width: 48px;
-    margin-top: -9px !important;
+    margin-top: -3px !important;
     margin-bottom: 5px;
     padding-right: 8px;
     vertical-align: middle;
