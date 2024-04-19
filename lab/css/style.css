@@ -178,15 +178,6 @@ input:focus, textarea:focus, select:focus {
     padding-left: 0px;
 }
 
-::-moz-selection {
-    background: #153356;
-    text-shadow: none;
-}
-
-::selection {
-    background: #153356;
-    text-shadow: none;
-}
 
 .sec-padding {
     padding: 30px 0px;
