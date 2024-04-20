@@ -61,21 +61,24 @@
 .footer-bottom .email-civil-department{
 	font-size: small;
 	margin-top: 1px;
-	transition: transform 0.3s ease-in-out;
 }
 
 .footer-bottom .more-contact-info{
 	font-size: small;
 	margin-top: 1px;
-	transition: transform 0.3s ease-in-out;
 }
 
-.footer-bottom .email-civil-department:hover{
-	transform: scale(1.05);
+.footer-bottom .department-email-link:hover{
+	text-decoration: underline !important;
+}
+
+.footer-bottom .official-site-link:hover{
+	color: #fff;
+	text-decoration: underline;
 }
 
 .footer-bottom .more-contact-info:hover{
-	transform: scale(1.05);
+	text-decoration: underline;
 }
 
 .footer-bottom .contributions{
@@ -99,10 +102,16 @@
 	color: #fff;
 }
 
-.names div > div{
-	transition: transform 0.3s ease-in-out;
+#scrolled-to-contact-us > div > div.names > div > div > a:nth-child(2){
+	color: #CCCCCC;
 }
 
-.names div > div:hover{
-	transform: scale(1.05);
+#scrolled-to-contact-us > div > div.names > div > div > a:nth-child(1):hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#scrolled-to-contact-us > div > div.names > div > div > a:nth-child(2):hover{
+	font-weight: bold;
+	text-decoration: underline;
 }

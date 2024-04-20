@@ -7,7 +7,7 @@ document.querySelector('#labLink').href = labLink;
 document.querySelector('#labOutcome').innerHTML = labOutcome;
 document.querySelector('#InchargeName').innerHTML = inchargeLab.Name;
 document.querySelector('#InchargeName').href = inchargeLab.ProfileLink;
-document.querySelector('#InchargeEmail').innerHTML = inchargeLab.Email;
+document.querySelector('#InchargeEmail').innerHTML = '<a href=mailto:'+ inchargeLab.Email + ' class="incharge-mail-link" style="color: #337ab7; text-decoration: none;" onmouseover="this.style.color=\'#000\'" onmouseout="this.style.color=\'#337ab7\'">'  + inchargeLab.Email + '</a>';
 document.querySelector('#InchargeDesignation').innerHTML = inchargeLab.Designation;
 document.querySelector('#InchargeQualification').innerHTML = inchargeLab.Qualification;
 document.querySelector('#InchargeSpecialization').innerHTML = inchargeLab.Specialization;
