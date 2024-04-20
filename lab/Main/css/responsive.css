@@ -134,6 +134,13 @@
 	.menu-3 .navbar-toggle .icon-bar{
 		background-color:#000;
 	}
+
+	.names {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 10px;
+	}
 	
 }
 
