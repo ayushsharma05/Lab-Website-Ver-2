@@ -72,6 +72,9 @@
 }
 
 .equipment img{
+	outline-style: double;
+	border-radius: 5px;
+	border: 2px double #000;
 	height: 151px;
 	transition:transform 0.3s ease-in-out;
 }
