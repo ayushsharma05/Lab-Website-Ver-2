@@ -7,7 +7,7 @@ const labKeywords = 'Geotechnical Engineering Laboratory,Geotechnical Engineerin
 
 const labDescription = 'Geotechnical Engineering Laboratory NIT DELHI'
 
-const labName = 'GeoTechnical Laboratory'
+const labName = 'Material Testing Laboratory'
 
 const aboutLab = 'The Geotechnical Engineering Laboratory serves as a pivotal hub within civil engineering departments, dedicated to unraveling the intricate behaviors of soils and rocks under diverse conditions. Through meticulous experimentation and analysis, it delves into soil properties such as density, strength, and permeability, alongside rock characteristics crucial for engineering projects. From assessing foundation stability to scrutinizing slope integrity and earthquake resilience, the laboratory\'s research encompasses a broad spectrum of critical areas. Equipped with advanced testing apparatus and geotechnical software, it drives innovation in ground improvement techniques, environmental remediation, and seismic design, fostering advancements essential for resilient infrastructure development worldwide.'
 
