@@ -4,6 +4,9 @@
 var equipmentHTMLArray = [];
 var equipmentButtons = [];
 
+// Append "Show Previous 3.." HTML code
+equipmentHTMLArray.push('<div class="unhide-three-previous-container" style="display:flex; align-items:center;"><a class="unhide-three-previous"><i class="fa-solid fa-backward"></i>= Previous</a></div><div id="middle-equipments-container">');
+
 for (var i = 0; i <imgSrcArray.length; i++) {
     // Create equipment HTML code
     var equipmentHTML = '<div class="col-md-9 hidden-equipment unique-element">';
@@ -21,20 +24,16 @@ for (var i = 0; i <imgSrcArray.length; i++) {
     equipmentHTMLArray.push(equipmentHTML);
 }
 
-// Append all generated equipment HTML code to the desired section in your HTML
-document.getElementById('Equipments').innerHTML = equipmentHTMLArray.join('');
-
-
-// Append "Show Previous 3.." HTML code
-equipmentButtons.push('<div class= "equipment-buttons"><div class="unhide-three-previous-container"><a class="unhide-three-previous"><i class="fa-solid fa-backward"></i>= Previous</a></div>');
+// Append "Show Next 3.." HTML code
+equipmentHTMLArray.push('</div><div class="unhide-three-next-container" style="display:flex; align-items:center;"><a class="unhide-three-next">Next =<i class="fa-solid fa-forward"></i></a></div>');
 
 // Append "unhide-three-container" HTML code
 equipmentButtons.push('<div class="unhide-three-container hidden-equipment"></div>');
 
-// Append "Show Next 3.." HTML code
-equipmentButtons.push('<div class="unhide-three-next-container"><a class="unhide-three-next">Next =<i class="fa-solid fa-forward"></i></a></div></div>');
-
 // Append the buttons HTML to the end of the equipments-container div
 document.getElementById('equipment-heading-container').insertAdjacentHTML('afterEnd', equipmentButtons.join(''));
 
+
+//push main html structure
+document.getElementById('Equipments').innerHTML = equipmentHTMLArray.join('');
 //---------------------------------------------------------------------------------------------------------------------------

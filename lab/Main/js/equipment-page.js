@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
     function updateVisibility(){
         var screenWidth = window.innerWidth; // Get the current screen width
-        var itemsToShow = screenWidth <= 992 ? 2 : 3; // Determine the number of items to show based on screen width
+        var itemsToShow = screenWidth <= 992 ? 1 : 2; // Determine the number of items to show based on screen width
         currentEndIndex = currentStartIndex + itemsToShow - 1;
         
         var allEquipments = document.querySelectorAll('.unique-element');
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     document.querySelector('.unhide-three-next').addEventListener('click', function(){
         var screenWidth = window.innerWidth; // Get the current screen width
-        var itemsToMove = screenWidth <= 992 ? 2 : 3; // Determine the number of items to move based on screen width
+        var itemsToMove = screenWidth <= 992 ? 1 : 2; // Determine the number of items to move based on screen width
         currentStartIndex += itemsToMove;
 
         if(currentEndIndex >= imgSrcArray.length){
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     document.querySelector('.unhide-three-previous').addEventListener('click', function(){
         var screenWidth = window.innerWidth; // Get the current screen width
-        var itemsToMove = screenWidth <= 992 ? 2 : 3; // Determine the number of items to move based on screen width
+        var itemsToMove = screenWidth <= 992 ? 1 : 2; // Determine the number of items to move based on screen width
         currentStartIndex -= itemsToMove;
 
         if(currentEndIndex <= 0){

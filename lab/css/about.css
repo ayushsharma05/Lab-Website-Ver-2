@@ -55,11 +55,13 @@
 }
 
 .about img{
+	outline-style: double;
+	border-radius: 5px;
+	border: 2px double #000;
 	transition: transform 0.3s ease-in-out;
-}
-
-.about img:hover{
-	transform: scale(2);
+	width: 35%;
+	border-radius: 5px;
+	opacity: 0.95;
 }
 
 .about .heading{

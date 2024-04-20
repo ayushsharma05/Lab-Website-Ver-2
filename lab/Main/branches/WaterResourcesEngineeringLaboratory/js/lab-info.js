@@ -1,31 +1,31 @@
 //Update lab info in this
 //--------------------------------------------------------------------------------------------------------
 console.log('lab-info requested');
-const labTitle = 'Geotechnical Engineering Laboratory :: Department of Civil Engineering NITD'
+const labTitle = 'Water Resources Engineering Laboratory :: Department of Civil Engineering NITD'
 
-const labKeywords = 'Geotechnical Engineering Laboratory,Geotechnical Engineering Laboratory NIT DELHI'
+const labKeywords = 'Water Resources Engineering Laboratory,Water Resources Engineering Laboratory NIT DELHI'
 
-const labDescription = 'Geotechnical Engineering Laboratory NIT DELHI'
+const labDescription = 'A water resources laboratory is a facility equipped to conduct various tests and analyses related to water quality, quantity, and management. It typically includes equipment for measuring parameters like pH, turbidity, dissolved oxygen, and contaminants. These labs play a crucial role in monitoring and assessing water sources, ensuring compliance with environmental regulations, and developing strategies for sustainable water management. They may also conduct research to improve water treatment methods and address emerging water-related challenges.'
 
-const labName = 'GeoTechnical Laboratory'
+const labName = 'Water Resources Laboratory'
 
-const aboutLab = 'The Geotechnical Engineering Laboratory serves as a pivotal hub within civil engineering departments, dedicated to unraveling the intricate behaviors of soils and rocks under diverse conditions. Through meticulous experimentation and analysis, it delves into soil properties such as density, strength, and permeability, alongside rock characteristics crucial for engineering projects. From assessing foundation stability to scrutinizing slope integrity and earthquake resilience, the laboratory\'s research encompasses a broad spectrum of critical areas. Equipped with advanced testing apparatus and geotechnical software, it drives innovation in ground improvement techniques, environmental remediation, and seismic design, fostering advancements essential for resilient infrastructure development worldwide.'
+const aboutLab = 'A water resources laboratory is a facility equipped to conduct various tests and analyses related to water quality, quantity, and management. It typically includes equipment for measuring parameters like pH, turbidity, dissolved oxygen, and contaminants. These labs play a crucial role in monitoring and assessing water sources, ensuring compliance with environmental regulations, and developing strategies for sustainable water management. They may also conduct research to improve water treatment methods and address emerging water-related challenges.'
 
-const labPurpose = 'Postgraduate and Ph.D. research scholars utilize laboratory facilities for their curriculum laboratory work. It is one of the key laboratories for PG/Ph.D. students. The laboratory has good potential to carry out research and generate revenue using testing work.'
+const labPurpose = 'Postgraduate and Ph.D. research scholars utilize laboratory facilities for their curriculum laboratory work. It is one of the key laboratories for PG/Ph.D. students. The laboratory has good potential to carry out research and generate revenue using testing work.The purpose of a water resources engineering laboratory is to provide a hands-on environment for conducting experiments and research related to the management, conservation, and utilization of water resources. It helps in understanding fundamental principles of hydrology, hydraulics, and water quality, and provides practical insights into designing and managing water-related infrastructure. The laboratory also facilitates testing and validation of models and theories, contributing to advancements in water resources engineering and sustainable water management practices.'
 
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {
-    InchargePhoto : '../branches/GeotechnicalLaboratory/img/Incharge.jpg',
-    Name : 'Dr. Ajay Kumar',
-    Email : 'ajay@nitdelhi.ac.in',
-    Designation : 'Associate Professor and Head',
-    Qualification : 'Ph.D. in Structural Engineering',
+    InchargePhoto : '../branches/WaterResourcesEngineeringLaboratory/img/Incharge.jpeg',
+    Name : 'Dr. Rahul Kumar Meena',
+    Email : 'rahulmeena@nitdelhi.ac.in',
+    Designation : 'Assistant Professor',
+    Qualification : 'Ph.D.',
     Specialization : 'Structural Engineering',
-    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=278'
+    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=354'
 }
 
-const labOutcome = 'The Geotechnical Engineering Laboratory is instrumental in driving impactful outcomes in the realm of civil engineering. Through meticulous experimentation and analysis, it offers valuable insights into soil and rock behavior under various conditions. These insights are pivotal for ensuring the stability and durability of infrastructure projects, ranging from buildings and bridges to dams and roads. By studying soil properties such as density, strength, and permeability, alongside rock characteristics, the laboratory equips engineers with the knowledge needed to make informed decisions during the design and construction phases. Moreover, its research contributes to the development of innovative ground improvement techniques, environmental remediation strategies, and seismic design approaches, ultimately fostering the advancement of resilient infrastructure essential for sustainable development.'
+const labOutcome = 'The Water Resources Laboratory plays a pivotal role in civil engineering advancement by conducting comprehensive analysis and experimentation on water-related phenomena. The insights garnered from this laboratory are fundamental to the planning, development, and management of water resources critical for sustaining urban and rural infrastructure. Through detailed examination of water quality, quantity, and distribution patterns, the laboratory equips engineers with essential data for designing resilient water supply systems, efficient irrigation networks, and effective flood mitigation strategies. Additionally, by exploring innovative approaches such as water reuse and rainwater harvesting, the laboratory contributes to sustainable water management practices that minimize environmental impact and promote long-term water security. These research endeavors are instrumental in fostering resilient communities and fostering sustainable development in both local and global contexts.'
 //--------------------------------------------------------------------------------------------------------------------------
 
 
