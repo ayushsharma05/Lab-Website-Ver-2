@@ -98,3 +98,11 @@
 .names a{
 	color: #fff;
 }
+
+.names div > div{
+	transition: transform 0.3s ease-in-out;
+}
+
+.names div > div:hover{
+	transform: scale(1.05);
+}
