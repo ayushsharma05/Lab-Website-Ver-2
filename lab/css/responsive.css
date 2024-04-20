@@ -57,12 +57,18 @@
 		padding: 0;
 	}
 
+	.main-menu .menu{
+		margin-bottom: 23px;
+	}
+
 	.menu{
 		float: right;
 		padding-top: 5px;
 	}
 
 	.menu-3 .nav{
+		text-align: center;
+    	width: 85vw;
 		display: flex;
 		flex-direction: column;
 	} 
@@ -100,6 +106,7 @@
 	}
 	
 	#main-navigation{
+		border-radius: 30px;
 		display: none;
 		padding-left: 30px;
 		padding-right: 30px;
@@ -131,6 +138,7 @@
 
 @media (min-width: 992px){
 	#main-navigation{
-		display: block !important;
+		justify-content: center;
+		display: flex !important;
 	}
 }

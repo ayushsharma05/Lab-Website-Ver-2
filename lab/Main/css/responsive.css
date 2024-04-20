@@ -68,6 +68,8 @@
 	}
 
 	.menu-3 .nav{
+		text-align: center;
+    	width: 85vw;
 		display: flex;
 		flex-direction: column;
 	} 
@@ -98,6 +100,7 @@
 	}
 	
 	.navbar-nav > li {
+		border-radius: 30px;
 		display: none;
  		float: left;
 		border-bottom: 2px dashed #000;
@@ -136,6 +139,7 @@
 
 @media (min-width: 992px){
 	#main-navigation{
-		display: block !important;
+		justify-content: center;
+		display: flex !important;
 	}
 }
