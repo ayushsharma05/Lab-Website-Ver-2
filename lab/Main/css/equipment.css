@@ -17,7 +17,7 @@
 
 .equipments-section .row{
 	display: grid !important;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 10% 80% 10%;
 	row-gap: 2em;
 	column-gap: 1em;
 	grid-auto-rows: minmax(100px, auto);
@@ -128,4 +128,9 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+
+#middle-equipments-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }

@@ -50,6 +50,11 @@
 	}
 
 	.equipments-section .row{
+		grid-template-columns: 20% 60% 20%;
+	}
+
+	#middle-equipments-container{
+		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
 
