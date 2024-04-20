@@ -16,7 +16,7 @@ const labPurpose = 'Postgraduate and Ph.D. research scholars utilize laboratory 
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {
-    InchargePhoto : '../branches/GeotechnicalLaboratory/img/Incharge.jpg',
+    InchargePhoto : '../branches/SurveyingandRemoteSensingLaboratory/img/Incharge.jpg',
     Name : 'Dr. Ajay Kumar',
     Email : 'ajay@nitdelhi.ac.in',
     Designation : 'Associate Professor and Head',

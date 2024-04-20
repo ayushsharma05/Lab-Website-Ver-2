@@ -16,16 +16,16 @@ const labPurpose = 'The Transportation Engineering Lab at NIT Delhi is committed
 const labLink = ''
 
 const inchargeLab = {
-    InchargePhoto : '../branches/GeotechnicalLaboratory/img/Incharge.jpg',
-    Name : 'Dr. Ajay Kumar',
-    Email : 'ajay@nitdelhi.ac.in',
-    Designation : 'Associate Professor and Head',
-    Qualification : 'Ph.D. in Structural Engineering',
+    InchargePhoto : '../branches/WaterResourcesEngineeringLaboratory/img/Incharge.jpeg',
+    Name : 'Dr. Rahul Kumar Meena',
+    Email : 'rahulmeena@nitdelhi.ac.in',
+    Designation : 'Assistant Professor',
+    Qualification : 'Ph.D.',
     Specialization : 'Structural Engineering',
-    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=278'
+    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=354'
 }
 
-const labOutcome = 'Imparts Understanding of various tests crucial for characterization of aggregate and bitumen for road construction. alongwith evaluating properties of prepared bitumen mixture and constructed pavement performance'
+const labOutcome = 'The Transportation Engineering Laboratory stands as a cornerstone in civil engineering, offering comprehensive analysis and experimentation on various aspects of transportation systems. The invaluable insights gained from this laboratory are indispensable for the design, planning, and management of efficient and sustainable transportation infrastructure. Through meticulous examination of traffic flow, pavement materials, and transportation technologies, the laboratory equips engineers with essential data for optimizing road networks, enhancing traffic safety, and reducing congestion. Moreover, by exploring innovative approaches such as intelligent transportation systems and sustainable transportation modes, the laboratory drives advancements in transportation engineering, promoting environmental sustainability and enhancing mobility for communities. These research endeavors are essential for shaping the future of transportation, fostering safer, more efficient, and environmentally friendly transportation systems that meet the evolving needs of society.'
 //--------------------------------------------------------------------------------------------------------------------------
 
 

@@ -16,16 +16,16 @@ const labPurpose = 'Postgraduate and Ph.D. research scholars utilize laboratory 
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {
-    InchargePhoto : '../branches/GeotechnicalLaboratory/img/Incharge.jpg',
-    Name : 'Dr. Kapil Kumar',
-    Email : 'kapilkumar@nitdelhi.ac.in',
+    InchargePhoto : '../branches/WaterResourcesEngineeringLaboratory/img/Incharge.jpeg',
+    Name : 'Dr. Rahul Kumar Meena',
+    Email : 'rahulmeena@nitdelhi.ac.in',
     Designation : 'Assistant Professor',
-    Qualification : 'Ph.D. Environmental Engineering',
-    Specialization : 'Environmental Engineering',
-    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=28'
+    Qualification : 'Ph.D.',
+    Specialization : 'Structural Engineering',
+    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=354'
 }
 
-const labOutcome = 'The Water Resources Engineering Laboratory is instrumental in driving impactful outcomes in the realm of civil engineering. Through meticulous testing, experimentation and analysis,to understand various aspects of water systems. This could include assessing water quality, studying hydraulic behavior, testing treatment methods, and developing solutions for water-related challenges. The ultimate goal is to improve the management, conservation, and utilization of water resources in a sustainable manner.'
+const labOutcome = 'The Water Resources Laboratory plays a pivotal role in civil engineering advancement by conducting comprehensive analysis and experimentation on water-related phenomena. The insights garnered from this laboratory are fundamental to the planning, development, and management of water resources critical for sustaining urban and rural infrastructure. Through detailed examination of water quality, quantity, and distribution patterns, the laboratory equips engineers with essential data for designing resilient water supply systems, efficient irrigation networks, and effective flood mitigation strategies. Additionally, by exploring innovative approaches such as water reuse and rainwater harvesting, the laboratory contributes to sustainable water management practices that minimize environmental impact and promote long-term water security. These research endeavors are instrumental in fostering resilient communities and fostering sustainable development in both local and global contexts.'
 //--------------------------------------------------------------------------------------------------------------------------
 
 

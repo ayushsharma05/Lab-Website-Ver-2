@@ -16,7 +16,7 @@ const labPurpose = ' By employing a variety of advanced techniques and equipment
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {
-    InchargePhoto : '../branches/GeotechnicalLaboratory/img/Incharge.jpg',
+    InchargePhoto : '../branches/Non-DestructiveTestingLaboratory/img/Incharge.jpg',
     Name : 'Dr. Ajay Kumar',
     Email : 'ajay@nitdelhi.ac.in',
     Designation : 'Associate Professor and Head',

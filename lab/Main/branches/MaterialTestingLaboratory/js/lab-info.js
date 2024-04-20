@@ -16,16 +16,16 @@ const labPurpose = 'Equipped with state-of-the-art instruments and manned by ski
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {
-    InchargePhoto: '../branches/GeotechnicalLaboratory/img/Incharge.jpg',
-    Name: 'Dr. Ajay Kumar',
-    Email: 'ajay@nitdelhi.ac.in',
-    Designation: 'Associate Professor and Head',
-    Qualification: 'Ph.D. in Structural Engineering',
-    Specialization: 'Structural Engineering',
-    ProfileLink: 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=278'
+    InchargePhoto : '../branches/WaterResourcesEngineeringLaboratory/img/Incharge.jpeg',
+    Name : 'Dr. Rahul Kumar Meena',
+    Email : 'rahulmeena@nitdelhi.ac.in',
+    Designation : 'Assistant Professor',
+    Qualification : 'Ph.D.',
+    Specialization : 'Structural Engineering',
+    ProfileLink : 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=354'
 }
 
-const labOutcome = 'The outcomes of our material testing laboratory empower civil engineering projects with confidence in material selection, structural design, and overall project performance. Through rigorous testing procedures and meticulous analysis, our laboratory delivers valuable insights and data-driven recommendations to optimize project outcomes. These insights enable engineers to make informed decisions regarding material specifications, ensuring the integrity and longevity of infrastructure projects. Additionally, our laboratory\'s findings contribute to innovation in construction materials, driving advancements in sustainability, efficiency, and cost - effectiveness.'
+const labOutcome = 'The Material Testing Laboratory serves as a cornerstone in civil engineering advancement, offering profound analysis and experimentation on various construction materials. The insights derived from this laboratory are indispensable for ensuring the quality, durability, and safety of infrastructure projects spanning from buildings to transportation networks. Through meticulous examination of material properties such as strength, elasticity, and ductility, the laboratory provides engineers with crucial data for optimizing material selection, structural design, and construction methodologies. Moreover, by delving into innovative testing techniques and exploring novel material compositions, the laboratory drives advancements in construction practices, leading to more resilient and sustainable built environments. These research initiatives are essential for fostering continuous improvement in construction standards, promoting safety, efficiency, and longevity in infrastructure projects, and ultimately contributing to the creation of vibrant and resilient communities.'
 //--------------------------------------------------------------------------------------------------------------------------
 
 
