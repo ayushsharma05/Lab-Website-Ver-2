@@ -5,7 +5,7 @@ const labTitle = 'Material Testing Laboratory :: Department of Civil Engineering
 
 const labKeywords = 'Material Testing Laboratory,Material Testing Laboratory NIT DELHI'
 
-const labDescription = 'GMaterial Testing Laboratory NIT DELHI'
+const labDescription = 'Material Testing Laboratory NIT DELHI'
 
 const labName = 'Material Testing Laboratory'
 
