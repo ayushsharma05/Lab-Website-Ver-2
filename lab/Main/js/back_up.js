@@ -1,43 +1,147 @@
-// Loop through arrays to create HTML elements for each equipment
-//------------------------------------------------------------------------------------------------------------------------
+@media only screen and (max-width: 992px){
 
-var equipmentHTMLArray = [];
-var equipmentButtons = [];
+	.fusion-header-v4 .fusion-logo .fusion-header-content-3-wrapper{
+		width: 100%;
+	}
 
-for (var i = 0; i <imgSrcArray.length; i++) {
-    // Create equipment HTML code
-    var equipmentHTML = '<div class="col-md-9 hidden-equipment unique-element">';
-    equipmentHTML += '<div class="colored-container">';
-    equipmentHTML += '<div class="equipment-box">';
-    equipmentHTML += '<div class="equipment">';
-    equipmentHTML += '<img src="' + imgSrcArray[i] + '" alt="Incharge Photo">';
-    equipmentHTML += '<div class="equipment-name"><h5>' + equipmentNameArray[i] + '</h5></div>';
-    equipmentHTML += '<div class="about-equipment"><p>' + equipmentInfoArray[i] + '</p></div>';
-    equipmentHTML += '<div class="IScode"><p><strong>IS CODE:</strong> ' + isCodeArray[i] + '</p></div>';
-    /*equipmentHTML += '<a href="' + externalSourceArray[i] + '">Click Here to read on Wikipedia</a>';*/
-    equipmentHTML += '</div></div></div></div>';
-    
-    // Add generated HTML code to the array
-    equipmentHTMLArray.push(equipmentHTML);
+	.fusion-header-v4 .search-table{
+		width:145px;
+	}
+
+	.searchform .search-field{
+		display: none;
+	}
+
+	.searchform .search-button{
+		float: right;
+	}
+
+	.searchsubmit{
+		background-color: transparent;
+		color: #000;
+		border: 2px solid #000;
+		border-radius: 100px;
+	}
+
+	.fusion-secondary-header{
+		border-bottom: 2px solid #992941 !important;
+	}
+
+	.fusion-contact-info{
+		margin-left: 0 !important;
+	}
+
+	.fullwidth-box.faded-background{
+		height: 100%;
+	}
+
+	.main-header img{
+		max-width: 80px;
+		margin-bottom: 10px;
+	}
+
+	.sec-padding .container .row{
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.sec-padding .container .row .col-md-9{
+		margin-bottom: 50px;
+	}
+
+	.equipments-section .row{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.social-media{
+		padding: 0;
+	}
+
+	.main-menu .menu{
+		margin-bottom: 23px;
+	}
+
+	.menu{
+		float: right;
+		padding-top: 5px;
+	}
+
+	.menu-3 .nav{
+		text-align: center;
+    	width: 85vw;
+		display: flex;
+		flex-direction: column;
+	} 
+
+	.navbar {
+		position: relative;
+		min-height: 50px;
+		margin-bottom: 20px;
+		display: block;
+	}
+
+	.navbar-toggle {
+		display: block;
+		position: relative;
+		float: right;
+		margin-right: 15px;
+		padding: 9px 10px;
+		margin-top: 3px;
+		margin-bottom: 10px;
+		background-color: transparent;
+		border: 1px solid transparent;
+		border-radius: 2px;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.navbar-toggle:hover{
+		transform: scale(1.1);
+	}
+	
+	.navbar-nav > li {
+		display: none;
+ 		float: left;
+		border-bottom: 2px dashed #000;
+		border-radius: 30px;
+	}
+	
+	#main-navigation{
+		border-radius: 30px;
+		display: none;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.menu-3 .menu .navbar{
+		border: 1px double #000;
+		border-radius: 30px;
+	}
+
+	.menu-3 .navbar-header{
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		padding-left: 20px;
+		padding-top: 5px;
+		margin-top: 10px;
+		border-radius: 30px;
+
+	}
+
+	.menu-3 .navbar-toggle .icon-bar{
+		background-color:#000;
+	}
+	
 }
 
-// Append all generated equipment HTML code to the desired section in your HTML
-document.getElementById('Equipments').innerHTML = equipmentHTMLArray.join('');
-
-
-// Append "Show Previous 3.." HTML code
-equipmentButtons.push('<div class= "equipment-buttons"><div class="unhide-three-previous-container"><a class="unhide-three-previous"><i class="fa-solid fa-backward"></i>= Previous</a></div>');
-
-// Append "unhide-three-container" HTML code
-equipmentButtons.push('<div class="unhide-three-container hidden-equipment"></div>');
-
-// Append "Show Next 3.." HTML code
-equipmentButtons.push('<div class="unhide-three-next-container"><a class="unhide-three-next">Next =<i class="fa-solid fa-forward"></i></a></div></div>');
-
-// Append the buttons HTML to the end of the equipments-container div
-document.getElementById('equipment-heading-container').insertAdjacentHTML('afterEnd', equipmentButtons.join(''));
-
-//---------------------------------------------------------------------------------------------------------------------------
+@media (min-width: 992px){
+	#main-navigation{
+		justify-content: center;
+		display: flex !important;
+	}
+}
 
 
 
@@ -49,68 +153,153 @@ document.getElementById('equipment-heading-container').insertAdjacentHTML('after
 
 
 
-//paging equipments
-//----------------------------------------------------------------------------------------------------------------------------
-document.addEventListener("DOMContentLoaded", function(){
-    var currentStartIndex = 0;
-    var currentEndIndex = 0;
-    
-    function updateVisibility(){
-        var screenWidth = window.innerWidth; // Get the current screen width
-        var itemsToShow = screenWidth <= 992 ? 1 : 2; // Determine the number of items to show based on screen width
-        currentEndIndex = currentStartIndex + itemsToShow - 1;
-        
-        var allEquipments = document.querySelectorAll('.unique-element');
-        allEquipments.forEach(function(element, index){
-            if(index >= currentStartIndex && index <= currentEndIndex){
-                element.classList.remove('hidden-equipment');
-                element.classList.add('flex-equipment');
-            } else {
-                element.classList.add('hidden-equipment');
-                element.classList.remove('flex-equipment');
-            }
-        });
-        
-        var unhideThreeContainer = document.querySelector('.unhide-three-container');
-        if(itemsToShow <= 2) {
-            unhideThreeContainer.classList.add('hidden-equipment');
-        } else {
-            unhideThreeContainer.classList.remove('hidden-equipment');
-        }
-    }
 
-    updateVisibility();
 
-    document.querySelector('.unhide-three-next').addEventListener('click', function(){
-        var screenWidth = window.innerWidth; // Get the current screen width
-        var itemsToMove = screenWidth <= 992 ? 1 : 2; // Determine the number of items to move based on screen width
-        currentStartIndex += itemsToMove;
 
-        if(currentEndIndex >= imgSrcArray.length){
-            currentEndIndex = currentEndIndex % imgSrcArray.length;
-        }
 
-        if(currentStartIndex >= imgSrcArray.length){
-            currentStartIndex = currentStartIndex % imgSrcArray.length;
-        }
 
-        updateVisibility();
-    });
+@media only screen and (max-width: 992px){
 
-    document.querySelector('.unhide-three-previous').addEventListener('click', function(){
-        var screenWidth = window.innerWidth; // Get the current screen width
-        var itemsToMove = screenWidth <= 992 ? 1 : 2; // Determine the number of items to move based on screen width
-        currentStartIndex -= itemsToMove;
+	.fusion-header-v4 .fusion-logo .fusion-header-content-3-wrapper{
+		width: 100%;
+	}
 
-        if(currentEndIndex <= 0){
-            currentEndIndex = (imgSrcArray.length + (currentEndIndex % imgSrcArray.length)) % imgSrcArray.length;
-        }
+	.fusion-header-v4 .search-table{
+		width:145px;
+	}
 
-        if(currentStartIndex <= 0){
-            currentStartIndex = (imgSrcArray.length + (currentStartIndex % imgSrcArray.length)) % imgSrcArray.length;
-        }
+	.searchform .search-field{
+		display: none;
+	}
 
-        updateVisibility();
-    });
-});
-//-----------------------------------------------------------------------------------------------------------------------
+	.searchform .search-button{
+		float: right;
+	}
+
+	.searchsubmit{
+		background-color: transparent;
+		color: #000;
+		border: 2px solid #000;
+		border-radius: 100px;
+	}
+
+	.fusion-secondary-header{
+		border-bottom: 2px solid #992941 !important;
+	}
+
+	.fusion-contact-info{
+		margin-left: 0 !important;
+	}
+	
+	.fullwidth-box.faded-background{
+		height: 100%;
+	}
+
+	.main-header img{
+		max-width: 80px;
+		margin-bottom: 10px;
+	}
+
+	.sec-padding .container .row{
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.sec-padding .container .row .col-md-9{
+		margin-bottom: 50px;
+	}
+
+	.equipments-section .row{
+		grid-template-columns: 20% 60% 20%;
+	}
+
+	#middle-equipments-container{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.social-media{
+		padding: 0;
+	}
+
+	.menu{
+		float: right;
+		padding-top: 5px;
+	}
+
+	.menu-3 .nav{
+		text-align: center;
+    	width: 85vw;
+		display: flex;
+		flex-direction: column;
+	} 
+
+	.navbar {
+		position: relative;
+		min-height: 50px;
+		margin-bottom: 20px;
+		display: block;
+	}
+
+	.navbar-toggle {
+		display: block;
+		position: relative;
+		float: right;
+		margin-right: 15px;
+		padding: 9px 10px;
+		margin-top: 3px;
+		margin-bottom: 10px;
+		background-color: transparent;
+		border: 1px solid transparent;
+		border-radius: 2px;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.navbar-toggle:hover{
+		transform: scale(1.1);
+	}
+	
+	.navbar-nav > li {
+		border-radius: 30px;
+		display: none;
+ 		float: left;
+		border-bottom: 2px dashed #000;
+		border-radius: 30px;
+	}
+	
+	#main-navigation{
+		display: none;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.menu-3 .menu .navbar{
+		border: 1px double #000;
+		border-radius: 30px;
+	}
+
+	.menu-3 .navbar-header{
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		padding-left: 20px;
+		padding-top: 5px;
+		margin-top: 10px;
+		border-radius: 30px;
+
+	}
+
+	.menu-3 .navbar-toggle .icon-bar{
+		background-color:#000;
+	}
+	
+}
+
+@media (min-width: 992px){
+	#main-navigation{
+		justify-content: center;
+		display: flex !important;
+	}
+}
