@@ -1,61 +1,62 @@
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
 
-	.fusion-header-v4 .fusion-logo .fusion-header-content-3-wrapper{
+	.fusion-header-v4 .fusion-logo .fusion-header-content-3-wrapper {
 		width: 100%;
 	}
 
-	.fusion-header-v4 .search-table{
-		width:145px;
+	.fusion-header-v4 .search-table {
+		width: 145px;
 	}
 
-	.searchform .search-field{
+	.searchform .search-field {
 		display: none;
 	}
 
-	.searchform .search-button{
+	.searchform .search-button {
 		float: right;
 	}
 
-	.searchsubmit{
+	.searchsubmit {
 		background-color: transparent;
 		color: #000;
 		border: 2px solid #000;
 		border-radius: 100px;
 	}
 
-	.fusion-secondary-header{
+	.fusion-secondary-header {
 		border-bottom: 2px solid #992941 !important;
 	}
 
-	.fusion-contact-info{
+	.fusion-contact-info {
 		margin-left: 0 !important;
 	}
 
-	.fullwidth-box.faded-background{
+	.fullwidth-box.faded-background {
 		height: 100%;
 	}
 
-	.main-header img{
+	.main-header img {
 		max-width: 80px;
 		margin-bottom: 10px;
 	}
 
-	.sec-padding .container .row{
+	.sec-padding .container .row {
 		flex-direction: column;
 		justify-content: space-between;
 	}
 
-	.sec-padding .container .row .col-md-9{
+	.sec-padding .container .row .col-md-9 {
 		margin-bottom: 50px;
 	}
 
-	.equipments-section .row{
+	.equipments-section .row {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.social-media{
+	.social-media {
 		padding: 0;
 	}
+
 
 	.main-menu .menu{
 		margin-bottom: 23px;
@@ -66,12 +67,13 @@
 		padding-top: 5px;
 	}
 
+
 	.menu-3 .nav{
 		text-align: center;
     	width: 85vw;
 		display: flex;
 		flex-direction: column;
-	} 
+	}
 
 	.navbar {
 		position: relative;
@@ -94,17 +96,17 @@
 		transition: transform 0.3s ease-in-out;
 	}
 
-	.navbar-toggle:hover{
+	.navbar-toggle:hover {
 		transform: scale(1.1);
 	}
-	
-	.navbar-nav > li {
+
+	.navbar-nav>li {
 		display: none;
- 		float: left;
+		float: left;
 		border-bottom: 2px dashed #000;
 		border-radius: 30px;
-	}
-	
+  }
+  
 	#main-navigation{
 		border-radius: 30px;
 		display: none;
@@ -114,12 +116,12 @@
 		padding-bottom: 0;
 	}
 
-	.menu-3 .menu .navbar{
+	.menu-3 .menu .navbar {
 		border: 1px double #000;
 		border-radius: 30px;
 	}
 
-	.menu-3 .navbar-header{
+	.menu-3 .navbar-header {
 		text-align: center;
 		justify-content: center;
 		align-items: center;
@@ -130,11 +132,20 @@
 
 	}
 
-	.menu-3 .navbar-toggle .icon-bar{
-		background-color:#000;
+	.menu-3 .navbar-toggle .icon-bar {
+		background-color: #000;
 	}
-	
+
+	.names {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 10px;
+	}
+
 }
+
+
 
 @media (min-width: 992px){
 	#main-navigation{
