@@ -30,10 +30,11 @@
 
 .right-banner ul > li{
 	display: flex;
+	column-gap: 30px;
 	flex-direction: row;
 	margin-left: 10px;
 	margin-top: 10px;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .right-banner ul > li .list-title{
@@ -41,13 +42,13 @@
 }
 
 .about{
+	text-align: left;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	text-align: center;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	padding: 20px;
 }
 
 .about-box{

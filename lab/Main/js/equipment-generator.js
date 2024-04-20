@@ -5,7 +5,7 @@ var equipmentHTMLArray = [];
 var equipmentButtons = [];
 
 // Append "Show Previous 3.." HTML code
-equipmentHTMLArray.push('<div class="unhide-three-previous-container" style="display:flex; align-items:center;"><a class="unhide-three-previous"><i class="fa-solid fa-backward"></i>= Previous</a></div><div id="middle-equipments-container">');
+equipmentHTMLArray.push('<div class="unhide-three-previous-container" style="display:flex; align-items:center; justify-content:center;"><a class="unhide-three-previous"><i class="fa-solid fa-backward"></i></a></div><div id="middle-equipments-container">');
 
 for (var i = 0; i <imgSrcArray.length; i++) {
     // Create equipment HTML code
@@ -25,7 +25,7 @@ for (var i = 0; i <imgSrcArray.length; i++) {
 }
 
 // Append "Show Next 3.." HTML code
-equipmentHTMLArray.push('</div><div class="unhide-three-next-container" style="display:flex; align-items:center;"><a class="unhide-three-next">Next =<i class="fa-solid fa-forward"></i></a></div>');
+equipmentHTMLArray.push('</div><div class="unhide-three-next-container" style="display:flex; align-items:center; justify-content:center;"><a class="unhide-three-next"><i class="fa-solid fa-forward"></i></a></div>');
 
 // Append "unhide-three-container" HTML code
 equipmentButtons.push('<div class="unhide-three-container hidden-equipment"></div>');

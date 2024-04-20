@@ -81,6 +81,7 @@
 
 .equipment div{
 	margin-top: 10px;
+	text-align: left;
 }
 
 .equipment img:hover{
@@ -95,7 +96,7 @@
 	font-size: 20px;
 	background-color: whitesmoke;
 	padding: 15px;
-	border: 2px solid snow;
+	border: 2px solid black;
 	border-radius: 20px;
 	float: left;
 }
@@ -106,7 +107,7 @@
 	font-size: 20px;
 	background-color: whitesmoke;
 	padding: 15px;
-	border: 2px solid snow;
+	border: 2px solid black;
 	border-radius: 20px;
 	float: right;
 }
