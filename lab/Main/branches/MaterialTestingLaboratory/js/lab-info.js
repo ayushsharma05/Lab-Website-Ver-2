@@ -25,7 +25,7 @@ const inchargeLab = {
     ProfileLink: 'https://nitdelhi.ac.in/?page_id=13670/?action=profile&id=278'
 }
 
-const labOutcome = 'The outcomes of our material testing laboratory empower civil engineering projects with confidence in material selection, structural design, and overall project performance. Through rigorous testing procedures and meticulous analysis, our laboratory delivers valuable insights and data-driven recommendations to optimize project outcomes. These insights enable engineers to make informed decisions regarding material specifications, ensuring the integrity and longevity of infrastructure projects. Additionally, our laboratory's findings contribute to innovation in construction materials, driving advancements in sustainability, efficiency, and cost - effectiveness.'
+const labOutcome = 'The outcomes of our material testing laboratory empower civil engineering projects with confidence in material selection, structural design, and overall project performance. Through rigorous testing procedures and meticulous analysis, our laboratory delivers valuable insights and data-driven recommendations to optimize project outcomes. These insights enable engineers to make informed decisions regarding material specifications, ensuring the integrity and longevity of infrastructure projects. Additionally, our laboratory\'s findings contribute to innovation in construction materials, driving advancements in sustainability, efficiency, and cost - effectiveness.'
 //--------------------------------------------------------------------------------------------------------------------------
 
 
