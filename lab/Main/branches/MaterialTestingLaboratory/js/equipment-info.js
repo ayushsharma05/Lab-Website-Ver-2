@@ -3,76 +3,55 @@
 //---------------------------------------------------------------------------------------------------------------
 console.log('equipment info requested');
 var imgSrcArray = [
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture1.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture2.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture3.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture4.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture5.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture6.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture7.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture8.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture9.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture10.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture11.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture12.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture13.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture14.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture15.jpg"
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture1.png",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture2.png",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture3.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture4.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture5.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture6.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture7.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture8.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture9.jpg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture10.jpg"
 ];
 
 var equipmentNameArray = [
-    "Liquid limit apparatus",
-    "Plastic limit apparatus",
-    "Balance (digital)",
-    "Oven",
-    "Hydrometer",
-    "Pycnometer",
-    "Motorized sieve shaker",
-    "Proving rings set",
-    "Metal tray",
-    "Poly carbonate beakers 25ml",
-    "Poly carbonate beakers 50ml",
-    "Polycarbonate beakers 100ml",
-    "Polycarbonate beakers 250ml",
-    "Polycarbonate beakers 500ml",
-    "Polycarbonate beakers 1000ml"
+    "Digital Izod Impact Testing Machine",
+    "Digital Torsion Testing Machine 100 NM Capacity",
+    "Rockwell Cum Brinell Hardness Tester",
+    "Brinell Hardness Testing Machine",
+    "Universal Testing Machine (UTM",
+    "Digital Charpy Impact Testing Machine",
+    "Flexural strength of a beam",
+    "Shear test",
+    "Vicat's Apparatus",
+    "Le-Chatelier apparatus"
 ];
 
 var equipmentInfoArray = [
-    "This apparatus determines the liquid limit of soil by measuring the moisture content at which soil transitions from a plastic to a liquid state.",
-    "Used to determine the plastic limit of soil by identifying the moisture content at which soil can no longer be molded without cracking.",
-    "A precision instrument for accurately measuring the mass of materials in grams or kilograms.",
-    "Used for drying soil samples and other materials at controlled temperatures to remove moisture content.",
-    " Measures the density of liquids or suspensions, commonly used in soil analysis to determine particle size distribution.",
-    "Measures the density or specific gravity of liquids, solids, or powders by displacement.",
-    "Automates the process of sieving soil or aggregates to obtain particle size distribution.",
-    "Measures the load or force exerted on soil or other materials during compaction or penetration tests.",
-    "Provides a flat, stable surface for conducting tests or holding samples in the laboratory.",
-    "Transparent containers of various sizes used for measuring, mixing, or storing liquids or solids in the laboratory.",
-    "Suitable for measuring and mixing moderate volumes of liquids or solids in laboratory settings.",
-    "Ideal for measuring, mixing, or storing moderate amounts of liquids or solids in laboratory experiments.",
-    "Suitable for measuring, mixing, or storing larger volumes of liquids or solids in laboratory procedures.",
-    "Commonly used for measuring, mixing, or storing substantial volumes of liquids or solids in laboratory experiments.",
-    "Suitable for measuring, mixing, or storing larger volumes of liquids or solids in laboratory procedures."
+    "IZOD impact test determines a material's resistance to breaking when subjected to a sudden force.",
+    "Torsion test assesses a material's torsional shear stress, maximum torque, shear modulus, and breaking angle.",
+    "Rockwell hardness test measures the bulk hardness of metallic and polymer materials.",
+    "Brinell hardness test is typically used for testing the hardness of aluminum, copper alloys, steels, and cast irons at various force ranges.",
+    "Universal Testing Machine (UTM) conducts material testing in both tension and compression to comply with various standards.",
+    "Charpy impact test evaluates a material's ability to absorb energy under impact.",
+    "Concrete specimen is prepared in layers for subsequent testing.",
+    "UTM setup ensures proper alignment and calibration before conducting tests.",
+    "Vicat's Apparatus determines the consistency, initial setting time, and final setting time of cement.",
+    "Le Chatelier's device assesses the soundness and stability of cement."
 ];
 
 var isCodeArray = [
-    "2720 (Part 5): 1985",
-    "2720 (Part 5): 1985",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987"
+    "ASTM E23",
+    "IS 2029-1962",
+    "IS 1586-2000",
+    "IS 2281-2005",
+    "IS 1828-1991",
+    "IS 1499-1977",
+    "IS 516-1959",
+    "IS 2911-2010",
+    "IS 5513-1976",
+    "IS 4031-1988"
 ];
-
 
 //------------------------------------------------------------------------------------------------------------------------
