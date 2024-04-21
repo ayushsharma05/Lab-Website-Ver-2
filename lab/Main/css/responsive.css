@@ -150,3 +150,14 @@
 		display: flex !important;
 	}
 }
+
+@media only screen and (max-width: 500px){
+    .about-equipment p{
+        height: 300px;
+    }
+
+	.equipment-name h5{
+		height: 90px;
+		font-size: 18px;
+	}
+}
