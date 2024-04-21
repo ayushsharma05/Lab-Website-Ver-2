@@ -9,6 +9,14 @@
 	color: #fff;
 }
 
+.email-civil-department p > a{
+	color: rgb(204, 204, 204) !important;
+}
+
+.email-civil-department p > a:hover{
+	color: #fff !important;
+}
+
 .social-media{
 	font-size: small;
 	display: flex;
