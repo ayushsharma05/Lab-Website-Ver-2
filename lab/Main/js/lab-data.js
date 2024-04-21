@@ -14,5 +14,5 @@ document.querySelector('#InchargeSpecialization').innerHTML = inchargeLab.Specia
 document.querySelector('#InchargeProfile').href = inchargeLab.ProfileLink;
 document.querySelector('#InchargeNameLink').href = inchargeLab.ProfileLink;
 
-const documentContent = '<title>'+labTitle+'</title><meta name="keywords" content='+labKeywords+ '/><meta name="description" content='+labDescription+'>'
+const documentContent = '<title>'+labTitle+'&#8211;Govt. of India, National Institute of Technology Delhi'+'</title><meta name="keywords" content='+labKeywords+ '/><meta name="description" content='+labDescription+'>'
 document.getElementsByTagName('head')[0].insertAdjacentHTML('beforeend', documentContent);

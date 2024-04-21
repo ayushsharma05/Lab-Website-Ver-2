@@ -1,7 +1,7 @@
 //Update lab info in this
 //--------------------------------------------------------------------------------------------------------
 console.log('lab-info requested');
-const labTitle = 'Geotechnical Engineering Laboratory :: Department of Civil Engineering NITD'
+const labTitle = 'Geotechnical Engineering Laboratory&#8211;Department of Civil Engineering'
 
 const labKeywords = 'Geotechnical Engineering Laboratory,Geotechnical Engineering Laboratory NIT DELHI'
 

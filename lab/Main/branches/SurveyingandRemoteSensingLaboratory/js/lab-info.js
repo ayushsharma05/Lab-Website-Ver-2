@@ -1,6 +1,6 @@
 //--------------------------------------------------------------------------------------------------------
 console.log('lab-info requested');
-const labTitle = 'Surveying and Remote Sensing Laboratory :: Department of Civil Engineering NITD';
+const labTitle = 'Surveying and Remote Sensing Laboratory&#8211;Department of Civil Engineering';
 
 const labKeywords = 'Surveying and Remote Sensing Laboratory, Surveying and Remote Sensing Laboratory NIT DELHI';
 

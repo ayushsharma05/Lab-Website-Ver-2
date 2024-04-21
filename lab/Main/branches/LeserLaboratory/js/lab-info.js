@@ -1,6 +1,6 @@
 //--------------------------------------------------------------------------------------------------------
 console.log('lab-info requested');
-const labTitle = 'Laboratory for Environmental Sustainability and Energy Resources :: Department of Civil Engineering, NIT Delhi';
+const labTitle = 'Laboratory for Environmental Sustainability and Energy Resources&#8211;Department of Civil Engineering';
 
 const labKeywords = 'Leser Lab, Environmental Sustainability Lab, Energy Resources Lab, Leser Lab nit delhi, nit delhi lab, nit delhi sustainability lab, nit delhi energy resources lab, nit delhi civil department, nit delhi civil engineering';
 

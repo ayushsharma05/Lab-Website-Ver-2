@@ -1,7 +1,7 @@
 //Update lab info in this
 //--------------------------------------------------------------------------------------------------------
 console.log('lab-info requested');
-const labTitle = 'Transportation Engineering Laboratory :: Department of Civil Engineering, NIT Delhi'
+const labTitle = 'Transportation Engineering Laboratory&#8211;Department of Civil Engineering'
 
 const labKeywords = 'Transportation Engineering Lab,Transportation Engineering Lab nit delhi , tranposrt eng. lab nit delhi , nit delhi lab , nit delhi transport eng. lab, nit delhi civil department , nit delhi civil engineering '
 
