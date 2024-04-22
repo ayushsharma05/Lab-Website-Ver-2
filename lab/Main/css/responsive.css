@@ -153,11 +153,67 @@
 
 @media only screen and (max-width: 500px){
     .about-equipment p{
-        height: 300px;
+        height: 250px;
     }
 
 	.equipment-name h5{
-		height: 90px;
-		font-size: 18px;
+		height: 80px;
+		font-size: 15px;
+	}
+
+	.footer-bottom .container h3{
+		font-size: 23px;
+	}
+
+	.names a{
+		font-size: 12px;
+	}
+
+	.names >div > div{
+		font-size: 14px;
+	}
+
+	.contact-us-container strong{
+		font-size: 15px !important;
+	}
+
+	.contact-us-container p{
+		font-size: 12px;
+	}
+
+	.email-civil-department p strong{
+		font-size: 12px !important;
+	}
+
+	.email-civil-department p a{
+		font-size: 11px;
+	}
+
+	.about p{
+		font-size: 14px;
+	}
+
+	.about h5{
+		font-size: 20px;
+	}
+
+	.equipment-heading{
+		font-size: 24px !important;
+	}
+
+	#labName{
+		font-size: 26px;
+	}
+
+	.title-heading-center{
+		font-size: 20px;
+	}
+
+	.about-equipment{
+		height: 350px;
+	}
+
+	.about-equipment p{
+		height: 100%;
 	}
 }

@@ -46,6 +46,7 @@ var equipmentNameArray = [
     "Specific Gravity and Water absorption",
     "Aggregate Impact Tester",
     "Abrasion Test by Los Angels Machine"
+    //Compression testing.....
 ];
 
 var equipmentInfoArray = [

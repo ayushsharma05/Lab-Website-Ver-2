@@ -147,10 +147,76 @@
 }
 
 
-
 @media (min-width: 992px){
 	#main-navigation{
 		justify-content: center;
 		display: flex !important;
+	}
+}
+
+@media only screen and (max-width: 500px){
+    .about-equipment p{
+        height: 250px;
+    }
+
+	.equipment-name h5{
+		height: 80px;
+		font-size: 15px;
+	}
+
+	.footer-bottom .container h3{
+		font-size: 23px;
+	}
+
+	.names a{
+		font-size: 12px;
+	}
+
+	.names >div > div{
+		font-size: 14px;
+	}
+
+	.contact-us-container strong{
+		font-size: 15px !important;
+	}
+
+	.contact-us-container p{
+		font-size: 12px;
+	}
+
+	.email-civil-department p strong{
+		font-size: 12px !important;
+	}
+
+	.email-civil-department p a{
+		font-size: 11px;
+	}
+
+	.about p{
+		font-size: 14px;
+	}
+
+	.about h5{
+		font-size: 20px;
+	}
+
+	.equipment-heading{
+		font-size: 24px !important;
+	}
+
+	#labName{
+		font-size: 26px;
+	}
+
+	body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none.hundred-percent-fullwidth.faded-background.fusion-equal-height-columns.chemical > div.fusion-row.row > div > h1 > a{
+		font-size: 24px;
+	}
+
+	.about-equipment{
+		height: 250px;
+	}
+
+	.about-equipment p{
+		height: 100%;
 	}
 }
