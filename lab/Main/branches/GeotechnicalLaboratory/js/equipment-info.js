@@ -3,15 +3,15 @@
 //---------------------------------------------------------------------------------------------------------------
 console.log('equipment info requested');
 var imgSrcArray = [
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture1.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture2.png",
+    "../branches/GeotechnicalLaboratory/img/equipments/Picture1.jpg",
+    "../branches/GeotechnicalLaboratory/img/equipments/Picture2.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture3.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture4.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture5.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture6.jpg",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture7.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture8.png",
-    "../branches/GeotechnicalLaboratory/img/equipments/Picture9.png",
+    "../branches/GeotechnicalLaboratory/img/equipments/Picture7.jpg",
+    "../branches/GeotechnicalLaboratory/img/equipments/Picture8.jpg",
+    "../branches/GeotechnicalLaboratory/img/equipments/Picture9.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture10.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture11.jpg",
     "../branches/GeotechnicalLaboratory/img/equipments/Picture12.jpg",

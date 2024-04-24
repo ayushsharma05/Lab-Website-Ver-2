@@ -20,7 +20,7 @@ var equipmentNameArray = [
     "Digital Torsion Testing Machine 100 NM Capacity",
     "Rockwell Cum Brinell Hardness Tester",
     "Brinell Hardness Testing Machine",
-    "Universal Testing Machine (UTM",
+    "Universal Testing Machine (UTM)",
     "Digital Charpy Impact Testing Machine",
     "Flexural strength of a beam",
     "Shear test",
