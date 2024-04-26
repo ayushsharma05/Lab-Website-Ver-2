@@ -5,12 +5,11 @@ console.log('equipment info requested');
 var imgSrcArray = [
     "../branches/LeserLaboratory/img/equipments/Picture1.png",
     "../branches/LeserLaboratory/img/equipments/Picture2.png",
-    "../branches/LeserLaboratory/img/equipments/Picture3.jpg",
-    "../branches/LeserLaboratory/img/equipments/Picture4.jpg",
-    "../branches/LeserLaboratory/img/equipments/Picture5.jpg",
-    "../branches/LeserLaboratory/img/equipments/Picture6.jpg",
-    "../branches/LeserLaboratory/img/equipments/Picture7.jpg",
-    "../branches/LeserLaboratory/img/equipments/Picture8.jpg"
+    "../branches/LeserLaboratory/img/equipments/Picture3.png",
+    "../branches/LeserLaboratory/img/equipments/Picture4.png",
+    "../branches/LeserLaboratory/img/equipments/Picture5.png",
+    "../branches/LeserLaboratory/img/equipments/Picture6.png",
+    "../branches/LeserLaboratory/img/equipments/Picture7.png",
 ];
 
 var equipmentNameArray = [
@@ -20,8 +19,7 @@ var equipmentNameArray = [
     "BOD Incubator",
     "COD Digestor",
     "Distillation Unit",
-    "pH Meter",
-    "Turbidity Meter"
+    "pH Meter"
 ];
 
 var equipmentInfoArray = [
@@ -31,12 +29,10 @@ var equipmentInfoArray = [
     "BOD incubator provides controlled conditions for biochemical oxygen demand (BOD) testing, typically used in water quality analysis.",
     "COD digestor is used for chemical oxygen demand (COD) testing, determining the amount of organic compounds in water samples.",
     "Distillation unit separates components of a liquid mixture based on differences in boiling points.",
-    "pH meter measures the acidity or alkalinity of a solution.",
-    "Turbidity meter measures the cloudiness or haziness of a liquid caused by suspended solids."
-];
+    "pH meter measures the acidity or alkalinity of a solution."
+]
 
 var isCodeArray = [
-    "Some IS code",
     "Some IS code",
     "Some IS code",
     "Some IS code",
