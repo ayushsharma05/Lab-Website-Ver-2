@@ -3,16 +3,18 @@
 //---------------------------------------------------------------------------------------------------------------
 console.log('equipment info requested');
 var imgSrcArray = [
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture1.png",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture2.png",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture3.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture4.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture5.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture6.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture7.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture8.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture9.jpg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture10.jpg"
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture1.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture2.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture3.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture4.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture5.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture6.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture7.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture8.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture9.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture10.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture11.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture12.jpeg"
 ];
 
 var equipmentNameArray = [
