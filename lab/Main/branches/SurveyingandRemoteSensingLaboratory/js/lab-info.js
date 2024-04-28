@@ -12,6 +12,8 @@ const aboutLab = 'The Surveying and Remote Sensing Laboratory stands as a corner
 
 const labPurpose = 'The Surveying and Remote Sensing Laboratory, under the leadership of Dr. Ajay Kumar, Associate Professor and Head, serves as a vital resource for postgraduate and Ph.D. research scholars, providing them with hands-on experience and practical skills in geospatial technologies. It plays a key role in conducting research and generating revenue through mapping services and consultancy projects, contributing to the advancement of geospatial data science and fostering sustainable development worldwide.';
 
+const labLocation = 'Arriving Soon'
+
 const labLink = 'https://en.wikipedia.org/wiki/Surveying';
 
 const inchargeLab = {

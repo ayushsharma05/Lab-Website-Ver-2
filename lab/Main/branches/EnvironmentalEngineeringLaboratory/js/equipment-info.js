@@ -1,5 +1,4 @@
 // Arrays for equipment information
-///Upadtes info of equipment in this section
 //---------------------------------------------------------------------------------------------------------------
 console.log('equipment info requested');
 var imgSrcArray = [
@@ -43,7 +42,7 @@ var equipmentInfoArray = [
     "Used to determine the plastic limit of soil by identifying the moisture content at which soil can no longer be molded without cracking.",
     "A precision instrument for accurately measuring the mass of materials in grams or kilograms.",
     "Used for drying soil samples and other materials at controlled temperatures to remove moisture content.",
-    " Measures the density of liquids or suspensions, commonly used in soil analysis to determine particle size distribution.",
+    "Measures the density of liquids or suspensions, commonly used in soil analysis to determine particle size distribution.",
     "Measures the density or specific gravity of liquids, solids, or powders by displacement.",
     "Automates the process of sieving soil or aggregates to obtain particle size distribution.",
     "Measures the load or force exerted on soil or other materials during compaction or penetration tests.",
@@ -57,21 +56,20 @@ var equipmentInfoArray = [
 ];
 
 var isCodeArray = [
-    "2720 (Part 5): 1985",
-    "2720 (Part 5): 1985",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987"
+    "IS 2720 (Part 5): 1985",
+    "IS 2720 (Part 5): 1985",
+    "IS 3696: 1987",
+    "IS 4031-1:1996",
+    "IS 2720 (Part 4): 1985",
+    "IS 2720 (Part 3): 1980",
+    "IS 460: 2005",
+    "IS 9182: 1979",
+    "Standard", // No specific IS code for Metal tray
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard" // No specific IS code for Poly carbonate beakers
 ];
-
-//------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------

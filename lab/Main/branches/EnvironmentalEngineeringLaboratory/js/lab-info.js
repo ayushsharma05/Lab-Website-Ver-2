@@ -12,6 +12,8 @@ const aboutLab = 'The Environmental Engineering Lab at NIT Delhi, established in
 
 const labPurpose = 'The Environmental Engineering Lab at NIT Delhi is dedicated to providing students with a holistic learning experience in environmental engineering. By integrating theoretical knowledge with practical applications, the lab nurtures critical thinking and problem-solving skills essential for addressing global environmental issues.';
 
+const labLocation = 'Mini Campus Basement'
+
 const labLink = '';
 
 const inchargeLab = {

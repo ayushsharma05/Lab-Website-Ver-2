@@ -134,3 +134,45 @@
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+#scrolled-to-contact-us > div > div.names > div.contra > div > div > a:nth-child(1){
+	color: #fff;
+	margin-left: 30px;
+}
+
+#scrolled-to-contact-us > div > div.names > div.contra > div > div > a:nth-child(2){
+	color: #CCCCCC;
+}
+
+#scrolled-to-contact-us > div > div.names > div.contra > div > div > a:nth-child(1):hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#scrolled-to-contact-us > div > div.names > div.contra > div > div > a:nth-child(2):hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.contri-button{
+	transition: transform 0.3s ease-in-out;
+}
+
+.contri-button:hover{
+	transform: scale(1.1);
+	background-color: #ccc;
+}
+
+.contri-icon{
+	transition: transform 0.3s ease-in-out;
+}
+
+.contri-icon:hover{
+	transform: scale(1.1);
+	color: #000;
+}
+
+
+.hidden-contributions{
+	display: none;
+}

@@ -13,6 +13,8 @@ const aboutLab = 'A water resources laboratory is a facility equipped to conduct
 
 const labPurpose = 'Postgraduate and Ph.D. research scholars utilize laboratory facilities for their curriculum laboratory work. It is one of the key laboratories for PG/Ph.D. students. The laboratory has good potential to carry out research and generate revenue using testing work.The purpose of a water resources engineering laboratory is to provide a hands-on environment for conducting experiments and research related to the management, conservation, and utilization of water resources. It helps in understanding fundamental principles of hydrology, hydraulics, and water quality, and provides practical insights into designing and managing water-related infrastructure. The laboratory also facilitates testing and validation of models and theories, contributing to advancements in water resources engineering and sustainable water management practices.'
 
+const labLocation = 'Mini Campus Basement'
+
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {

@@ -3,6 +3,7 @@ document.querySelector('#InchargePhoto').src = inchargeLab.InchargePhoto;
 document.querySelector('#labName').innerHTML = labName.toUpperCase();
 document.querySelector('#aboutLab').innerHTML = aboutLab;
 document.querySelector('#labPurpose').innerHTML = '<strong>Purpose : </strong>' + labPurpose;
+document.querySelector('#labLocation').innerHTML = '<strong>Location : </strong>' + labLocation;
 //document.querySelector('#labLink').href = labLink;
 document.querySelector('#labOutcome').innerHTML = labOutcome;
 document.querySelector('#InchargeName').innerHTML = inchargeLab.Name;

@@ -13,6 +13,8 @@ const aboutLab = 'The Computational Laboratory offers civil engineering students
 
 const labPurpose = 'The Computational Laboratory aims to enrich civil engineering students\' technical skills and knowledge, fostering expertise and proficiency through hands-on experience with cutting-edge software tools. Its goal is to empower students for success in both academic endeavors and professional practice.'
 
+const labLocation = 'Mini Campus Ground Floor'
+
 const labLink = ''
 
 const inchargeLab = {

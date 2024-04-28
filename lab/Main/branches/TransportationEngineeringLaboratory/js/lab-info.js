@@ -13,6 +13,8 @@ const aboutLab = 'The Transport Engineering Lab at NIT Delhi, established in 202
 
 const labPurpose = 'The Transportation Engineering Lab at NIT Delhi is committed to offering students at all levels—UG, PG, and Ph.D.—a comprehensive learning experience aligned with the curriculum. Through hands-on training and theoretical insights, the lab fosters proficient knowledge and understanding.'
 
+const labLocation = 'Mini Campus Basement'
+
 const labLink = ''
 
 const inchargeLab = {

@@ -13,6 +13,8 @@ const aboutLab = 'The Geotechnical Engineering Laboratory serves as a pivotal hu
 
 const labPurpose = 'Postgraduate and Ph.D. research scholars utilize laboratory facilities for their curriculum laboratory work. It is one of the key laboratories for PG/Ph.D. students. The laboratory has good potential to carry out research and generate revenue using testing work.'
 
+const labLocation = 'Mini Campus Basement'
+
 const labLink = 'https://archive.nptel.ac.in/noc/courses/noc22/SEM1/noc22-ce25/'
 
 const inchargeLab = {

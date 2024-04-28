@@ -56,22 +56,23 @@ var equipmentInfoArray = [
     "Suitable for measuring, mixing, or storing larger volumes of liquids or solids in laboratory procedures."
 ];
 
+
 var isCodeArray = [
-    "2720 (Part 5): 1985",
-    "2720 (Part 5): 1985",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987",
-    "3696: 1987"
+    "IS 2720 (Part 5): 1985",
+    "IS 2720 (Part 5): 1985",
+    "IS 3696: 1987",
+    "IS 4031-1:1996",
+    "IS 2720 (Part 4): 1985",
+    "IS 2720 (Part 3): 1980",
+    "IS 460: 2005",
+    "IS 9182: 1979",
+    "Standard", // No specific IS code for Metal tray
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard", // No specific IS code for Poly carbonate beakers
+    "Standard" // No specific IS code for Poly carbonate beakers
 ];
 
 

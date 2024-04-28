@@ -17,6 +17,7 @@ var imgSrcArray = [
     "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture12.jpg",
     "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture13.jpg",
     "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture14.jpg",
+    "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture15.jpg",
     "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture16.jpg",
     "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture17.jpg",
     "../branches/ConcreteTechnologyLaboratory/img/equipments/Picture18.jpg",
@@ -39,6 +40,7 @@ var equipmentNameArray = [
     "3000kN capacity compression testing machine",
     "Le-Chatelier apparatus",
     "Weighing balance",
+    "Digital Flexure Testing Machine",
     "Cement Mortar and Concrete Permeability Apparatus",
     "Crushing Value Apparatus",
     "Specific Gravity and Water absorption",
@@ -61,6 +63,7 @@ var equipmentInfoArray = [
     "Compression test uses machines to determine material behavior under increasing compressive loading.",
     "Le Chatelier's device assesses cement soundness.",
     "A weighing balance determines the weight or mass of an object.",
+    "A digital flexure testing machine measures the flexural strength of materials by applying a bending force.",
     "Cement Mortar and Concrete Permeability Apparatus measures permeability by water flow under pressure.",
     "Aggregate crushing value test determines resistance to crushing under gradually applied load.",
     "Specific gravity of aggregate indicates material strength or quality.",
@@ -69,10 +72,10 @@ var equipmentInfoArray = [
 ];
 
 var isCodeArray = [
-    "IS 10674-1982",
-    "IS 5513-1976",
-    "IS 13311-1992",
-    "IS 13311-1992",
+    "IS 5891 : 2022",
+    "IS 5513 : 1996",
+    "Not Specified",
+    "IS 516 (Part 5/Sec 4) : 2020",
     "IS 516-1959",
     "IS 456-2000",
     "IS 13311-1992",

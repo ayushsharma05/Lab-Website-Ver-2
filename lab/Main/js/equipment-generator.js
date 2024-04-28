@@ -16,9 +16,9 @@ for (var i = 0; i <imgSrcArray.length; i++) {
     equipmentHTML += '<img src="' + imgSrcArray[i] + '" alt="Incharge Photo">';
     equipmentHTML += '<div class="equipment-name"><h5>' + equipmentNameArray[i] + '</h5></div>';
     equipmentHTML += '<div class="about-equipment"><p>' + equipmentInfoArray[i] + '</p></div>';
-    if(clickedLink != "ComputationalLaboratory"){
-        equipmentHTML += '<div class="IScode"><p><strong>IS CODE:</strong> ' + isCodeArray[i] + '</p></div>';
-    }
+//    if(clickedLink != "ComputationalLaboratory" && clickedLink != "LeserLaboratory" && clickedLink != "EnvironmentalEngineeringLaboratory" && clickedLink != "WaterResourcesEngineeringLaboratory"){
+//        equipmentHTML += '<div class="IScode"><p><strong>IS CODE:</strong> ' + isCodeArray[i] + '</p></div>';
+//    }
     /*equipmentHTML += '<a href="' + externalSourceArray[i] + '">Click Here to read on Wikipedia</a>';*/
     equipmentHTML += '</div></div></div></div>';
     

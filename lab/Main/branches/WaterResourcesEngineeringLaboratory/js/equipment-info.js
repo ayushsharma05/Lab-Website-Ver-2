@@ -3,8 +3,8 @@
 //---------------------------------------------------------------------------------------------------------------
 console.log('equipment info requested');
 var imgSrcArray = [
-    "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture1.png",
-    "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture2.png",
+    "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture1.jpg",
+    "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture2.jpg",
     "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture3.jpg",
     "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture4.jpg",
     "../branches/WaterResourcesEngineeringLaboratory/img/equipments/Picture5.jpg",

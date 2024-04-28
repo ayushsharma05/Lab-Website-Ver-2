@@ -13,6 +13,8 @@ const aboutLab = 'A material testing laboratory is a specialized facility equipp
 
 const labPurpose = 'Equipped with state-of-the-art instruments and manned by skilled technicians and engineers, our facility conducts a comprehensive range of tests to evaluate factors such as strength, durability, and thermal conductivity. These tests, including tensile, compression, and hardness testing, provide crucial data for optimizing material selection, ensuring structural stability, and enhancing project longevity.'
 
+const labLocation = 'Mini Campus Basement'
+
 const labLink = 'https://en.wikipedia.org/wiki/Geotechnical_engineering'
 
 const inchargeLab = {

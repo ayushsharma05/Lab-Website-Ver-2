@@ -12,6 +12,8 @@ const aboutLab = 'The Laboratory for Environmental Sustainability and Energy Res
 
 const labPurpose = 'The LESER Lab at NIT Delhi aims to provide students with a comprehensive understanding of environmental sustainability and energy resources. Through hands-on experiments, field studies, and theoretical learning, the lab fosters critical thinking and innovation necessary for addressing pressing environmental and energy-related issues.';
 
+const labLocation = 'Mini Campus Second Floor'
+
 const labLink = '';
 
 const inchargeLab = {
