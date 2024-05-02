@@ -8,13 +8,13 @@ var imgSrcArray = [
     "../branches/MaterialTestingLaboratory/img/equipments/Picture3.jpeg",
     "../branches/MaterialTestingLaboratory/img/equipments/Picture4.jpeg",
     "../branches/MaterialTestingLaboratory/img/equipments/Picture5.jpeg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture6.jpeg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture7.jpeg",
+//    "../branches/MaterialTestingLaboratory/img/equipments/Picture6.jpeg",
+    "../branches/MaterialTestingLaboratory/img/equipments/Picture7.jpg",
     "../branches/MaterialTestingLaboratory/img/equipments/Picture8.jpeg",
     "../branches/MaterialTestingLaboratory/img/equipments/Picture9.jpeg",
     "../branches/MaterialTestingLaboratory/img/equipments/Picture10.jpeg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture11.jpeg",
-    "../branches/MaterialTestingLaboratory/img/equipments/Picture12.jpeg"
+//    "../branches/MaterialTestingLaboratory/img/equipments/Picture11.jpeg",
+//    "../branches/MaterialTestingLaboratory/img/equipments/Picture12.jpeg"
 ];
 
 var equipmentNameArray = [
@@ -23,7 +23,7 @@ var equipmentNameArray = [
     "Rockwell Cum Brinell Hardness Tester",
     "Brinell Hardness Testing Machine",
     "Universal Testing Machine (UTM)",
-    "Digital Charpy Impact Testing Machine",
+//    "Digital Charpy Impact Testing Machine",
     "Flexural strength of a beam",
     "Shear test",
     "Vicat's Apparatus",
@@ -36,7 +36,7 @@ var equipmentInfoArray = [
     "Rockwell hardness test measures the bulk hardness of metallic and polymer materials.",
     "Brinell hardness test is typically used for testing the hardness of aluminum, copper alloys, steels, and cast irons at various force ranges.",
     "Universal Testing Machine (UTM) conducts material testing in both tension and compression to comply with various standards.",
-    "Charpy impact test evaluates a material's ability to absorb energy under impact.",
+//    "Charpy impact test evaluates a material's ability to absorb energy under impact.",
     "Concrete specimen is prepared in layers for subsequent testing.",
     "UTM setup ensures proper alignment and calibration before conducting tests.",
     "Vicat's Apparatus determines the consistency, initial setting time, and final setting time of cement.",
